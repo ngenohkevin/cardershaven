@@ -5,7 +5,7 @@ import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-import {CiBadgeDollar} from "react-icons/ci";
+
 
 
 const Sidebar = () => {
@@ -28,7 +28,7 @@ const Sidebar = () => {
                         <Link to="/" onClick={handleCloseSideBar}
                               className="items-center gap-3 ml-3 mt-4
                         flex text-2xl font-extrabold tracking-tight dark:text-white text-slate-900">
-                            <CiBadgeDollar/> <span>Logs n Sauce</span>
+                            <SiShopware/> <span>Carders Haven</span>
                         </Link>
                         <TooltipComponent content="Menu" position="BottomCenter">
                             <button type="button"

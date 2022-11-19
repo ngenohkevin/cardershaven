@@ -6,7 +6,6 @@ import { RiNotification3Line } from 'react-icons/ri';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import avatar from '../data/avatar.jpg';
 import { Cart, Chat, Notification, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
 
@@ -29,16 +28,17 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
 
 const Navbar = () => {
     const { currentColor, activeMenu, setActiveMenu, handleClick, isClicked, setScreenSize, screenSize } = useStateContext();
+    const handleResize = () => setScreenSize(window.innerWidth);
 
     useEffect(() => {
-        const handleResize = () => setScreenSize(window.innerWidth);
+
 
         window.addEventListener('resize', handleResize);
 
         handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    });
 
     useEffect(() => {
         if (screenSize <= 900) {
@@ -46,7 +46,7 @@ const Navbar = () => {
         } else {
             setActiveMenu(true);
         }
-    }, [screenSize]);
+    }, [screenSize, setActiveMenu]);
 
     const handleActiveMenu = () => setActiveMenu(!activeMenu);
 

@@ -5,71 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4edaec9-1f58-4e5c-ab22-91ed92d38ca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/btc_address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/dummy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/welcome-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craco.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BitcoinPayment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BitcoinPayment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Btc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btc.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/Pie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Pie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChartsHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartsHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Notification.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Payment.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contexts/ContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/ContextProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Area.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Bar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Bar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/ColorMapping.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/ColorMapping.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Financial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Financial.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Line.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Line.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Pie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Pie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Pyramid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Pyramid.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Stacked.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Stacked.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ColorPicker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ColorPicker.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Customer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Customer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Customers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Customers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/dummy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Employees.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Kanban.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Kanban.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

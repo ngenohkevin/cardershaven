@@ -1,7 +1,6 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { Button } from '.';
-import { useStateContext } from '../contexts/ContextProvider';
 import Payment from "./Payment";
 
 const Chat = () => {

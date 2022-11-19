@@ -1,7 +1,4 @@
-import React, {useState} from 'react';
-import qr from '../data/btc_address.png'
-import Btc from "./Btc";
-
+import React from 'react';
 const Modal = ({visible, onClose}) => {
 
     const handleOnClose = () => {
