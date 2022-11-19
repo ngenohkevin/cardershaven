@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4edaec9-1f58-4e5c-ab22-91ed92d38ca6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/ContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/ContextProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/dummy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

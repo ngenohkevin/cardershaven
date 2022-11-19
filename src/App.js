@@ -4,7 +4,7 @@ import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {TooltipComponent} from "@syncfusion/ej2-react-popups";
 import {FiSettings} from "react-icons/fi";
-import {Navbar, Payment, Sidebar, ThemeSettings} from "./components";
+import {Footer, Navbar, Payment, Sidebar, ThemeSettings} from "./components";
 import {
     Ecommerce
 } from "./pages";
@@ -80,6 +80,7 @@ const App = () => {
 
                             </Routes>
                         </div>
+                        <Footer/>
                     </div>
                 </div>
             </BrowserRouter>
