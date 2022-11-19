@@ -6,7 +6,6 @@ import { RiNotification3Line } from 'react-icons/ri';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import avatar from '../data/avatar.jpg';
 import { Cart, Chat, Notification, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
 
@@ -38,7 +37,7 @@ const Navbar = () => {
         handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    }, [screenSize]);
 
     useEffect(() => {
         if (screenSize <= 900) {

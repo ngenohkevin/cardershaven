@@ -6,18 +6,7 @@ import {TooltipComponent} from "@syncfusion/ej2-react-popups";
 import {FiSettings} from "react-icons/fi";
 import {Navbar, Payment, Sidebar, ThemeSettings} from "./components";
 import {
-    Area,
-    Bar,
-    Calendar, ColorMapping,
-    ColorPicker,
-    Customers,
-    Ecommerce,
-    Editor,
-    Employees, Financial,
-    Kanban,
-    Line,
-    Orders,
-    Pie, Pyramid, Stacked
+    Ecommerce
 } from "./pages";
 import {useStateContext} from "./contexts/ContextProvider";
 
