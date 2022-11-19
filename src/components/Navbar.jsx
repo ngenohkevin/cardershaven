@@ -26,18 +26,20 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
     </TooltipComponent>
 );
 
+
 const Navbar = () => {
     const { currentColor, activeMenu, setActiveMenu, handleClick, isClicked, setScreenSize, screenSize } = useStateContext();
+    const handleResize = () => setScreenSize(window.innerWidth);
 
     useEffect(() => {
-        const handleResize = () => setScreenSize(window.innerWidth);
+
 
         window.addEventListener('resize', handleResize);
 
         handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    });
 
     useEffect(() => {
         if (screenSize <= 900) {
@@ -45,7 +47,7 @@ const Navbar = () => {
         } else {
             setActiveMenu(true);
         }
-    }, [screenSize]);
+    }, [screenSize, setActiveMenu]);
 
     const handleActiveMenu = () => setActiveMenu(!activeMenu);
 
