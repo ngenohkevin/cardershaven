@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a4edaec9-1f58-4e5c-ab22-91ed92d38ca6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BitcoinPayment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BitcoinPayment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Btc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btc.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Payment.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
       <workItem from="1668846077859" duration="5991000" />
       <workItem from="1668854904130" duration="253000" />
       <workItem from="1668871359135" duration="1664000" />
-      <workItem from="1668964702224" duration="397000" />
+      <workItem from="1668964702224" duration="5767000" />
     </task>
     <servers />
   </component>

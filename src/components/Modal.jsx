@@ -7,6 +7,7 @@ const Modal = ({visible, onClose}) => {
 
     const handleSubmit = e => {
         e.preventDefault();
+
     }
 
     if(!visible) return null
