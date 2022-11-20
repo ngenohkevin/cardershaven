@@ -19,8 +19,8 @@ const Btc = () => {
                     type="image"
                     className="submit"
                     name="submit"
-                    src="https://mainnet.demo.btcpayserver.org/img/paybutton/pay.svg"
-                    style={{ width: 209 }}
+                    src="https://cdn.iconscout.com/icon/free/png-512/bitcoin-390-920575.png"
+                    style={{ width: 160 }}
                     alt="carders haven Bitcoin Payment Processor"
                 />
             </form>
