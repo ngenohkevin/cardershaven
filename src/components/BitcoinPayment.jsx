@@ -5,6 +5,7 @@ const BitcoinPayment = () => {
     return (
         <div className="App">
             <BitcoinPaymentButton
+                rel="noopener noreferrer"
                 uid="c9c0ec04e8034696"
                 imageURL="https://cdn.iconscout.com/icon/free/png-512/bitcoin-390-920575.png"
                 font="Roboto, Helvetica, Arial, sans-serif"
