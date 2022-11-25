@@ -1,13 +1,13 @@
-import React from 'react';
-// import Modal from "./Modal";
-import Btc from "./Btc";
+import React, {useState} from 'react';
+// import Btc from "./Btc";
+import Modal from "./Modal";
 
 
 
 const Payment = () => {
-    // const [showModal, setShowModal] = useState(false)
-    //
-    // const handleOnClose = () => setShowModal(false)
+    const [showModal, setShowModal] = useState(false)
+
+    const handleOnClose = () => setShowModal(false)
 
     return (
         <div className="flex flex-wrap justify-center
@@ -16,14 +16,20 @@ const Payment = () => {
                 <h1 className="text-green-600 text-3xl font-bold mt-10">
                     Cannot Access this page due to Insufficient balance! Add $60 to proceed
                 </h1>
-                <button className="text-white focus:outline-none
-                font-medium text-sm rounded-lg  text-center mr-3"
-                        // onClick={() =>setShowModal(true)}
+                <button
+                        onClick={() =>setShowModal(true)}
                 >
-                    <Btc/>
+                    <input
+                        type="image"
+                        className="submit"
+                        name="submit"
+                        src="https://cdn.iconscout.com/icon/free/png-512/bitcoin-390-920575.png"
+                        style={{ width: 146 }}
+                        alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor"
+                    />
                 </button>
             </div>
-            {/*<Modal onClose={handleOnClose} visible={showModal}/>*/}
+            <Modal onClose={handleOnClose} visible={showModal}/>
         </div>
     );
 

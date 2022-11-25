@@ -5,10 +5,10 @@ const Modal = ({visible, onClose}) => {
         onClose()
     }
 
-    const handleSubmit = e => {
-        e.preventDefault();
-
-    }
+    // const handleSubmit = e => {
+    //     e.preventDefault();
+    //
+    // }
 
     if(!visible) return null
     return (
@@ -34,33 +34,42 @@ const Modal = ({visible, onClose}) => {
                             </ul>
                         </div>
                         <br/>
-                        <form className="space-y-6" onSubmit={handleSubmit}>
-                            <div>
-                                <label
-                                    htmlFor="email"
-                                    className="block mb-2 text-sm font-medium text-gray-900"
-                                >
-                                    Your Email
-                                </label>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    className="bg-gray-200 border border-gray-300 text-gray-800 text-sm rounded-lg
-                                    focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                    placeholder="name@company.com"
-                                    required
-                                />
-                            </div>
-                            <div className="text-center">
-                                <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none
-                font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5"
+                {/*        <form className="space-y-6" onSubmit={handleSubmit}>*/}
+                {/*            <div>*/}
+                {/*                <label*/}
+                {/*                    htmlFor="email"*/}
+                {/*                    className="block mb-2 text-sm font-medium text-gray-900"*/}
+                {/*                >*/}
+                {/*                    Your Email*/}
+                {/*                </label>*/}
+                {/*                <input*/}
+                {/*                    type="email"*/}
+                {/*                    name="email"*/}
+                {/*                    id="email"*/}
+                {/*                    className="bg-gray-200 border border-gray-300 text-gray-800 text-sm rounded-lg*/}
+                {/*                    focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"*/}
+                {/*                    placeholder="name@company.com"*/}
+                {/*                    required*/}
+                {/*                />*/}
+                {/*            </div>*/}
+                {/*            <div className="text-center">*/}
+                {/*                <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none*/}
+                {/*font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5"*/}
 
-                                >
-                                    Continue to payment
-                                </button>
-                            </div>
-                        </form>
+                {/*                >*/}
+                {/*                    <a href="https://www.blockonomics.co/pay-url/c9c0ec04e8034696" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>*/}
+                {/*                        Continue*/}
+                {/*                    </a>*/}
+                {/*                </button>*/}
+                {/*            </div>*/}
+                {/*        </form>*/}
+                        <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none
+                font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5">
+                            <a href="https://www.blockonomics.co/pay-url/c9c0ec04e8034696" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>
+                            Continue to payment
+                            </a>
+
+                        </button>
                     </div>
                 </div>
             </div>

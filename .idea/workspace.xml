@@ -7,6 +7,8 @@
     <list default="true" id="a4edaec9-1f58-4e5c-ab22-91ed92d38ca6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Btc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btc.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Payment.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,9 @@
       <workItem from="1668871359135" duration="1664000" />
       <workItem from="1668964702224" duration="7114000" />
       <workItem from="1669009630963" duration="977000" />
-      <workItem from="1669059910071" duration="418000" />
+      <workItem from="1669059910071" duration="1015000" />
+      <workItem from="1669315480036" duration="1536000" />
+      <workItem from="1669374110869" duration="1262000" />
     </task>
     <servers />
   </component>

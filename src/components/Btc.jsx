@@ -31,7 +31,6 @@ const Btc = () => {
                 />
             </form>
 
-
         </div>
     );
 };
