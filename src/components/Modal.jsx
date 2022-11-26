@@ -1,15 +1,14 @@
 import React from 'react';
-
-
 const Modal = ({visible, onClose}) => {
 
     const handleOnClose = () => {
         onClose()
     }
 
-    const handleSubmit = e => {
-        e.preventDefault();
-    }
+    // const handleSubmit = e => {
+    //     e.preventDefault();
+    //
+    // }
 
     if(!visible) return null
     return (
@@ -26,7 +25,7 @@ const Modal = ({visible, onClose}) => {
                         <div className="flex justify-center items-center text-sky-700 italic">
                             <ul className="list-disc">
                                 <li>The higher you pay the more services and offers you'll access</li>
-                                <li>50% bonus on $1000+ deposit</li>
+                                <li>30% bonus on $1000+ deposit</li>
                                 <li>Access to CC checkers for Free! on $200+ deposit</li>
                                 <li>Your balance will be added to your account after 3 confirmations</li>
                                 <li>You can withdraw your funds any time you want</li>
@@ -35,33 +34,42 @@ const Modal = ({visible, onClose}) => {
                             </ul>
                         </div>
                         <br/>
-                        <form className="space-y-6" onSubmit={handleSubmit}>
-                            <div>
-                                <label
-                                    htmlFor="email"
-                                    className="block mb-2 text-sm font-medium text-gray-900"
-                                >
-                                    Your Email
-                                </label>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    className="bg-gray-200 border border-gray-300 text-gray-800 text-sm rounded-lg
-                                    focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                    placeholder="name@company.com"
-                                    required
-                                />
-                            </div>
-                            <div className="text-center">
-                                <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none
-                font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5"
+                        {/*        <form className="space-y-6" onSubmit={handleSubmit}>*/}
+                        {/*            <div>*/}
+                        {/*                <label*/}
+                        {/*                    htmlFor="email"*/}
+                        {/*                    className="block mb-2 text-sm font-medium text-gray-900"*/}
+                        {/*                >*/}
+                        {/*                    Your Email*/}
+                        {/*                </label>*/}
+                        {/*                <input*/}
+                        {/*                    type="email"*/}
+                        {/*                    name="email"*/}
+                        {/*                    id="email"*/}
+                        {/*                    className="bg-gray-200 border border-gray-300 text-gray-800 text-sm rounded-lg*/}
+                        {/*                    focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"*/}
+                        {/*                    placeholder="name@company.com"*/}
+                        {/*                    required*/}
+                        {/*                />*/}
+                        {/*            </div>*/}
+                        {/*            <div className="text-center">*/}
+                        {/*                <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none*/}
+                        {/*font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5"*/}
 
-                                >
-                                    Continue to payment
-                                </button>
-                            </div>
-                        </form>
+                        {/*                >*/}
+                        {/*                    <a href="https://www.blockonomics.co/pay-url/c9c0ec04e8034696" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>*/}
+                        {/*                        Continue*/}
+                        {/*                    </a>*/}
+                        {/*                </button>*/}
+                        {/*            </div>*/}
+                        {/*        </form>*/}
+                        <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none
+                font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5">
+                            <a href="https://www.blockonomics.co/pay-url/b624e5fc734546f2" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>
+                                Continue to payment
+                            </a>
+
+                        </button>
                     </div>
                 </div>
             </div>
